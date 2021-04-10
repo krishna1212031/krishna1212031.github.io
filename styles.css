@@ -69,7 +69,7 @@ nav ul {
 .logo,
 nav ul li a {
   margin: 30px;
-  font-family: myriad pro regular;
+  font-family: Arial, Helvetica, sans-serif;
   color: #505050;
   font-size: 15px;
   font-weight: 600;
@@ -212,9 +212,8 @@ button:active {
 }
 
 .services {
-  height: 600px;
   background-color: #ffffff;
-  padding: 2% 10% 0px 10%;
+  padding: 5px 10% 40px 10%;
 }
 .services-text p:nth-child(1) {
   font-family: calibri;
@@ -236,14 +235,12 @@ button:active {
 }
 
 .services-text {
-  width: 500px;
+  max-width: 500px;
   margin: 50px 0px;
 }
 
-.box-1,
-.box-2,
-.box-3 {
-  width: 300px;
+.box{
+  min-width: 300px;
   height: 320px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,11 +249,15 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin:0 20px 40px;
 }
+
 
 .box-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
 }
 
 .box-1 {
@@ -289,7 +290,7 @@ button:active {
   color: #ffffff;
   font-family: calibri;
   font-size: 23px;
-  line-height: 0px;
+  /* line-height: 0px; */
 }
 .box-1 p:nth-child(4),
 .box-2 p:nth-child(4),
@@ -442,3 +443,9 @@ footer p:nth-child(2) {
   font-size: 20px;
 
 }
+
+/* @media (max-width: 980px) {
+  .box-container {
+    flex-direction: column;
+  }
+} */
