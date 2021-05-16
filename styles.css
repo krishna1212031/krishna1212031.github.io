@@ -646,7 +646,7 @@ footer p:nth-child(2) {
   #toggle {
     display: none;
   }
-  
+
   .btn {
     display: inline-block;
     width: 100%;
@@ -658,7 +658,6 @@ footer p:nth-child(2) {
     position: relative;
     z-index: 11;
   }
-
 
   .btn .clk {
     display: block;
@@ -728,8 +727,8 @@ footer p:nth-child(2) {
   left: 50%;
   right: 50%;
   bottom: 50%;
-  background: black; 
-  opacity:  90%;
+  background: black;
+  opacity: 90%;
   overflow: hidden;
   border-radius: 50%;
   display: flex;
@@ -745,13 +744,13 @@ footer p:nth-child(2) {
   right: -50%;
 }
 
-#button-r{
-  font-size:23px;
+#button-r {
+  font-size: 23px;
   line-height: 70px;
   color: white;
   font-weight: bold;
 }
-.menu{
+.menu {
   display: none;
 }
 .menu-cont ol li a {
