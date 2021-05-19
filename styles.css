@@ -761,36 +761,36 @@ footer p:nth-child(2) {
 .menu-cont ol li a {
   text-align: center;
 }
-/* .......................... */
+/* 
 #personal-info label input:invalid{
   border-color: gray;
   }
 
-/* body{ 
+body{ 
  width: 100%;
  margin: 2rem ;
  background: linear-gradient(45deg, #CCFFFF,#29B6F6,#FFCCCC);
  font-family:'Raleway', Helvetica, sans-serif;
  margin: auto;
  font-size: 1.5rem
-} */
+} 
 
 
 
  
 
-#personal-info legend{ /*accessibility, sustitude of titles*/
+#personal-info legend{ 
 padding-bottom:0.75rem;
 }
 
-#personal-info legend:focus{ /*accessibility, focus with Keyboard to navigate*/
+#personal-info legend:focus{ 
  color:black;
 font-style:italic;
 text-decoration:none;
 }
 
 
-#survey-form fieldset{ /*accessibility, get rit of border of fieldset that sorounds similar info*/
+#survey-form fieldset{ 
 border: none;
 }
 
@@ -814,15 +814,15 @@ margin-top:0.5rem;
  border-bottom:white solid 1px;
 }
 
-#personal-info ::placeholder{ /*hide test placeholder */
+#personal-info ::placeholder{ 
  opacity:0.1;
 }
 
-.hide{  /*accessibility, Hide text, only for Screen readers */
+.hide{  
  font-size: 0;
 }
 
-select, /*gradient to buttons and select*/
+select, 
 button{
  position: relative;
  z-index: 1;
@@ -881,3 +881,4 @@ color:white;
    width:60%;
 }
 }
+/*
