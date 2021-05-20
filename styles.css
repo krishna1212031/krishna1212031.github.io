@@ -26,6 +26,9 @@ section {
   justify-content: center;
   align-items: center;
 }
+.openm{
+  padding-right: 15px;
+}
 
 input {
   display: none;
@@ -755,7 +758,7 @@ footer p:nth-child(2) {
   color: white;
   font-weight: bold;
 }
-.menu {
+#menu {
  display: none;
 }
 .menu-cont ol li a {
