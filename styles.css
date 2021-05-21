@@ -37,6 +37,9 @@ input {
 ul {
   list-style: none;
 }
+#menu {
+  display: none;
+ }
 
 a {
   text-decoration: none;
@@ -461,6 +464,9 @@ footer p:nth-child(2) {
 }
 
 @media (max-width: 767px) {
+  #menu {
+    display: block;
+   }
   .openm {
     display: none;
   }
@@ -758,9 +764,7 @@ footer p:nth-child(2) {
   color: white;
   font-weight: bold;
 }
-#menu {
- display: none;
-}
+
 .menu-cont ol li a {
   text-align: center;
 }
